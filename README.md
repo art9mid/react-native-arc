@@ -6,6 +6,24 @@ Architecture reference and AI agent skill for scaffolding production-ready React
 
 A collection of architecture guidelines, code templates, and a mobile design system that any AI coding agent can use to scaffold and maintain React Native projects with consistent, battle-tested patterns.
 
+## Agent Commands
+
+The skill is split into focused agents that can be run independently:
+
+| Command | What It Does |
+|---------|-------------|
+| `/arc-scaffold` | Project init, folder structure, deps, config, linting, navigation |
+| `/arc-connect` | API client, storage, state management, auth, i18n |
+| `/arc-ui` | Theme system, components, screen content, mobile UX |
+| `/arc-feature` | Add a complete new domain (types + API + hooks + screens) |
+| `/arc-audit` | Check for UX, performance, and architecture violations |
+| `/react-native-arc` | Full scaffolding (all-in-one) |
+
+**Typical workflow:**
+```
+/arc-scaffold → /arc-connect → /arc-ui → /arc-feature (repeat) → /arc-audit
+```
+
 ## How to Use
 
 1. Clone or copy this repo into your project (or reference it)

@@ -2,6 +2,24 @@
 
 You are working with a React Native (Expo) architecture reference. Before generating any code, read the relevant skill files.
 
+## Agent Commands
+
+The workflow is split into focused agents that can be run independently:
+
+| Command | Purpose | When to Use |
+|---------|---------|-------------|
+| `/arc-scaffold` | Project init, folder structure, deps, config, linting, navigation | Starting a new project from scratch |
+| `/arc-connect` | API client, storage, state management, auth, i18n | After scaffold — adding the data layer |
+| `/arc-ui` | Theme system, components, screen content, mobile UX | After scaffold — building the visual layer |
+| `/arc-feature` | Add a complete new domain (types + API + hooks + screens) | Adding a new entity like products or orders |
+| `/arc-audit` | Check for UX, performance, and architecture violations | Reviewing existing code quality |
+| `/react-native-arc` | Full scaffolding (all-in-one) | When you want everything in a single pass |
+
+**Typical workflow:**
+```
+/arc-scaffold → /arc-connect → /arc-ui → /arc-feature (repeat per domain) → /arc-audit
+```
+
 ## Architecture Reference
 
 All documentation lives in `skills/react-native-arc/`. Read before writing code:
