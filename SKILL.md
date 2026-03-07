@@ -1,6 +1,9 @@
 ---
 name: react-native-arc
-description: "Scaffold production-ready React Native Expo projects with battle-tested architecture: navigation, theme system, API layer, storage, state management, i18n, linting, and mobile UX design system. Use when creating a new React Native app, setting up Expo project architecture, or when the user mentions React Native project scaffolding, mobile app boilerplate, or Expo starter template."
+description: Scaffold production-ready React Native Expo projects with battle-tested architecture including navigation, theme system, API layer, storage, state management, i18n, linting, and mobile UX design system. Use when creating a new React Native app, setting up Expo project architecture, or when the user mentions React Native project scaffolding, mobile app boilerplate, or Expo starter template.
+metadata:
+  author: art9mid
+  version: "1.0"
 ---
 
 # React Native Arc
@@ -61,7 +64,7 @@ Read from `skills/react-native-arc/` before generating code:
 12. `i18n.md` — Lingui.js internationalization
 
 **Mobile Design System** (`skills/react-native-arc/mobile-design/`):
-- `SKILL.md` — Master checklist and anti-patterns
+- `GUIDE.md` — Master checklist and anti-patterns
 - `touch-psychology.md` — Fitts' Law, thumb zones, haptics
 - `mobile-performance.md` — Deep optimization (16ms frame budget)
 - `mobile-navigation.md` — Tab bar UX, state preservation, back handling

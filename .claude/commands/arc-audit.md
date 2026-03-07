@@ -16,7 +16,7 @@ Ask the user:
 ## Step 2: Read Reference Files
 
 Read from `skills/react-native-arc/`:
-1. `mobile-design/SKILL.md` — anti-patterns checklist
+1. `mobile-design/GUIDE.md` — anti-patterns checklist
 2. `mobile-design/touch-psychology.md` — touch target rules
 3. `mobile-design/mobile-performance.md` — performance checklist
 4. `components.md` — component structure rules

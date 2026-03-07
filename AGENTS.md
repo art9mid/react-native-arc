@@ -45,7 +45,7 @@ Read `skills/react-native-arc/mobile-design/` for platform-specific guidelines:
 
 | File | What It Covers |
 |------|---------------|
-| `SKILL.md` | Master checklist, anti-patterns, mandatory pre-coding checkpoint |
+| `GUIDE.md` | Master checklist, anti-patterns, mandatory pre-coding checkpoint |
 | `touch-psychology.md` | Fitts' Law, 44pt/48dp touch targets, thumb zones, haptics |
 | `mobile-performance.md` | FlatList tuning, animation budget (16ms), memory leak prevention |
 | `mobile-navigation.md` | Tab bar limits, state preservation, back handling, deep linking |

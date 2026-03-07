@@ -73,7 +73,7 @@ skills/react-native-arc/
 ├── linting.md                    # ESLint, Prettier, Husky, lint-staged
 ├── i18n.md                       # Internationalization with Lingui
 ├── mobile-design/                # Mobile UX design system
-│   ├── SKILL.md                  # Master checklist & anti-patterns
+│   ├── GUIDE.md                  # Master checklist & anti-patterns
 │   ├── touch-psychology.md       # Fitts' Law, thumb zones, haptics
 │   ├── mobile-performance.md     # Deep optimization guide
 │   ├── mobile-navigation.md      # Tab bar, stack, deep linking UX

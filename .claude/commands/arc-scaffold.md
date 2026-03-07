@@ -24,7 +24,7 @@ Read these from `skills/react-native-arc/`:
 3. `typescript.md` — TSConfig, path aliases, babel config
 4. `linting.md` — ESLint, Prettier, Husky, lint-staged
 5. `providers.md` — provider stack order
-6. `mobile-design/SKILL.md` — anti-patterns checklist
+6. `mobile-design/GUIDE.md` — anti-patterns checklist
 
 ## Step 3: Initialize Project
 

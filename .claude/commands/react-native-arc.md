@@ -23,7 +23,7 @@ You are scaffolding a new React Native (Expo) project using the **react-native-a
    If Context7 is not available, proceed with the architecture reference files.
 
 3. **Mobile Design Checkpoint (mandatory):**
-   Before writing any code, read `skills/react-native-arc/mobile-design/SKILL.md` and complete:
+   Before writing any code, read `skills/react-native-arc/mobile-design/GUIDE.md` and complete:
    ```
    Platform:   [iOS / Android / Both]
    Framework:  React Native (Expo)
@@ -58,7 +58,7 @@ Read the following skill files from `skills/react-native-arc/` to understand the
 12. **`i18n.md`** — Internationalization with Lingui
 
 **Mobile Design System (read selectively based on needs):**
-12. **`mobile-design/SKILL.md`** — Master checklist & anti-patterns
+12. **`mobile-design/GUIDE.md`** — Master checklist & anti-patterns
 13. **`mobile-design/touch-psychology.md`** — Touch targets, thumb zones, haptics
 14. **`mobile-design/mobile-performance.md`** — Deep performance optimization
 15. **`mobile-design/mobile-navigation.md`** — Navigation UX patterns
