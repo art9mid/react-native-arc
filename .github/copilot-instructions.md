@@ -7,7 +7,7 @@ You are working with a React Native (Expo) architecture reference project.
 All architecture documentation is in `skills/react-native-arc/`. Read these files BEFORE writing code:
 
 - `project-structure.md` — Folder tree, naming conventions, barrel exports
-- `navigation.md` — React Navigation 7.x (native-stack + bottom-tabs)
+- `navigation.md` — React Navigation (native-stack + bottom-tabs)
 - `theme.md` — Theme system, color schemes, useStyles hook
 - `components.md` — Component file structure (types, styles, constants in separate files)
 - `api-services.md` — Axios HTTP client with auth interceptors

@@ -86,7 +86,7 @@ cd <project-name>
 ```
 
 ### Step 2: Install Core Dependencies
-Install in this order (groups can be parallel):
+Always use `npx expo install` for Expo-compatible packages (resolves correct versions). Use latest — do NOT pin versions. Install in this order (groups can be parallel):
 
 **Navigation:**
 ```bash
@@ -124,6 +124,12 @@ npx expo install expo-localization
 ```bash
 npm install -D typescript @types/react eslint prettier eslint-config-expo husky lint-staged babel-plugin-module-resolver
 ```
+
+**Verify compatibility:**
+```bash
+npx expo doctor
+```
+Fix any version mismatches before proceeding. Follow `expo doctor` recommendations.
 
 ### Step 3: Generate Project Structure
 Create the full `src/` directory structure as defined in `project-structure.md`.

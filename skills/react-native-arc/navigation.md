@@ -1,6 +1,6 @@
 # Navigation Architecture
 
-## Stack: React Navigation 7.x
+## Stack: React Navigation
 
 - `@react-navigation/native` — core
 - `@react-navigation/native-stack` — native stack (not JS stack)

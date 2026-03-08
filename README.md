@@ -46,7 +46,7 @@ The key line to add is: **"Read the skill files in `skills/react-native-arc/` be
 | Layer | Solution |
 |-------|----------|
 | Framework | React Native + Expo (TypeScript strict) |
-| Navigation | React Navigation 7.x (native-stack + bottom-tabs) |
+| Navigation | React Navigation (native-stack + bottom-tabs) |
 | Server State | TanStack React Query + MMKV persistence |
 | HTTP | Axios with auth interceptors + automatic token refresh |
 | Storage | react-native-mmkv |

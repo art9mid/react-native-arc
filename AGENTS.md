@@ -27,7 +27,7 @@ All documentation lives in `skills/react-native-arc/`. Read before writing code:
 | File | What It Covers |
 |------|---------------|
 | `project-structure.md` | Folder tree, naming conventions, barrel exports |
-| `navigation.md` | React Navigation 7.x, typed hooks, deep linking, tab UX |
+| `navigation.md` | React Navigation, typed hooks, deep linking, tab UX |
 | `theme.md` | Color schemes, useStyles, useAppTheme, OLED dark mode |
 | `components.md` | Component file structure, sub-components, touch targets, haptics |
 | `api-services.md` | Axios interceptors, API modules, cursor pagination, error handling |
@@ -86,3 +86,4 @@ Use `skills/react-native-arc/templates/` when generating new code:
 13. **Platform**: iOS follows HIG, Android follows Material Design 3 — respect both
 14. **Dark mode**: `#121212` surfaces (not pure black), `#E8E8E8` text (not pure white), WCAG AA contrast
 15. **Cleanup**: Always clean up timers, listeners, subscriptions in `useEffect` return
+16. **Dependencies**: Always install latest versions via `npx expo install` (not `npm install` for Expo-compatible packages), then run `npx expo doctor` to verify compatibility

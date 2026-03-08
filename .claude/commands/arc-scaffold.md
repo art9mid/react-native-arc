@@ -35,6 +35,8 @@ cd <project-name>
 
 ## Step 4: Install ALL Dependencies
 
+Always use `npx expo install` for Expo-compatible packages (resolves correct versions automatically). Use latest versions — do NOT pin specific versions.
+
 ```bash
 # Navigation
 npx expo install @react-navigation/native @react-navigation/native-stack @react-navigation/bottom-tabs react-native-screens react-native-safe-area-context
@@ -51,6 +53,14 @@ npx expo install react-native-reanimated react-native-gesture-handler react-nati
 # Dev tools
 npm install -D typescript @types/react eslint prettier eslint-config-expo eslint-plugin-react-hooks eslint-plugin-react-native eslint-config-prettier husky lint-staged babel-plugin-module-resolver
 ```
+
+### Verify compatibility
+
+```bash
+npx expo doctor
+```
+
+Fix any version mismatches or warnings before proceeding. If `expo doctor` suggests different versions, follow its recommendations.
 
 ## Step 5: Create Folder Structure
 

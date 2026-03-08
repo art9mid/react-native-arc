@@ -51,7 +51,7 @@ Read from `skills/react-native-arc/` before generating code:
 
 **Core Architecture:**
 1. `project-structure.md` — Folder tree, naming conventions, barrel exports
-2. `navigation.md` — React Navigation 7.x, typed hooks, deep linking, tab UX
+2. `navigation.md` — React Navigation, typed hooks, deep linking, tab UX
 3. `theme.md` — Theme system, color schemes, OLED dark mode, useStyles hook
 4. `components.md` — Component file structure, touch targets, haptics, expo-image
 5. `api-services.md` — Axios HTTP client, interceptors, cursor pagination
