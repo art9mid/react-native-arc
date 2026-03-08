@@ -12,7 +12,7 @@ You are scaffolding a new React Native (Expo) project using the **arc-skill** ar
    - Whether they need authentication flow — default: yes
    - Which navigation pattern: `tabs + stack` (default) or `stack only` or `drawer + stack`
 
-2. **Context7 (optional):** If the user has Context7 MCP configured, use it to fetch the latest docs for:
+2. **Context7 (mandatory):** Ask the user to connect Context7 MCP server if not already configured. Use it to fetch the latest docs for:
    - `react-native` — core APIs and New Architecture
    - `expo` — SDK setup and latest modules
    - `@react-navigation/native` — navigation
@@ -20,7 +20,8 @@ You are scaffolding a new React Native (Expo) project using the **arc-skill** ar
    - `react-native-mmkv` — storage
    - `react-native-reanimated` — animations
 
-   If Context7 is not available, proceed with the architecture reference files.
+   Tell the user: "Do you have Context7 MCP connected? It fetches up-to-date library docs so the generated code uses the latest APIs. If not, add it: https://github.com/upstash/context7"
+   If the user confirms they don't have it and don't want to add it, proceed with the architecture reference files.
 
 3. **Expo Skills (recommended):** If using Claude Code, install official Expo skills:
    ```
@@ -65,17 +66,18 @@ Read the following skill files from `skills/arc-skill/` to understand the full a
 11. **`linting.md`** — ESLint, Prettier, Husky, lint-staged
 12. **`i18n.md`** — Internationalization with Lingui
 
-**Mobile Design System (read selectively based on needs):**
-12. **`mobile-design/GUIDE.md`** — Master checklist & anti-patterns
-13. **`mobile-design/touch-psychology.md`** — Touch targets, thumb zones, haptics
-14. **`mobile-design/mobile-performance.md`** — Deep performance optimization
-15. **`mobile-design/mobile-navigation.md`** — Navigation UX patterns
-16. **`mobile-design/mobile-typography.md`** — Type scales, Dynamic Type
-17. **`mobile-design/mobile-color-system.md`** — OLED, dark mode, contrast
-18. **`mobile-design/platform-ios.md`** — iOS HIG specifics
-19. **`mobile-design/platform-android.md`** — Material Design 3 specifics
-20. **`mobile-design/mobile-backend.md`** — Offline sync, push, auth patterns
-21. **`mobile-design/decision-trees.md`** — Framework & architecture decisions
+**Mobile Design System (ALWAYS read — these are mandatory, not optional):**
+13. **`mobile-design/GUIDE.md`** — Master checklist & anti-patterns
+14. **`mobile-design/touch-psychology.md`** — Touch targets, thumb zones, haptics
+15. **`mobile-design/mobile-performance.md`** — Deep performance optimization
+16. **`mobile-design/mobile-navigation.md`** — Navigation UX patterns
+17. **`mobile-design/mobile-typography.md`** — Type scales, Dynamic Type
+18. **`mobile-design/mobile-color-system.md`** — OLED, dark mode, contrast
+19. **`mobile-design/platform-ios.md`** — iOS HIG specifics (read if targeting iOS)
+20. **`mobile-design/platform-android.md`** — Material Design 3 specifics (read if targeting Android)
+21. **`mobile-design/mobile-backend.md`** — Offline sync, push, auth patterns
+22. **`mobile-design/decision-trees.md`** — Framework & architecture decisions
+23. **`mobile-design/mobile-design-thinking.md`** — Anti-memorization, forces context-based thinking
 
 ## Template Files
 
