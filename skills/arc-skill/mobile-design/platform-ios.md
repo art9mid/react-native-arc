@@ -490,9 +490,9 @@ SwiftUI:
 .accessibilityLabel("Play")
 .accessibilityHint("Plays the selected track")
 
-React Native:
-accessibilityLabel="Play"
-accessibilityHint="Plays the selected track"
+React Native (with i18n):
+accessibilityLabel={t`Play`}
+accessibilityHint={t`Plays the selected track`}
 accessibilityRole="button"
 ```
 

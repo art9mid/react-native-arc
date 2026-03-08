@@ -590,8 +590,8 @@ Modifier.semantics {
     role = Role.Button
 }
 
-React Native:
-accessibilityLabel="Play button"
+React Native (with i18n):
+accessibilityLabel={t`Play button`}
 accessibilityRole="button"
 accessibilityState={{ disabled: false }}
 ```
