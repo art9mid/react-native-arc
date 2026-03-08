@@ -1,4 +1,4 @@
-# react-native-arc
+# arc-skill
 
 Architecture reference and AI agent skill for scaffolding production-ready React Native (Expo) projects.
 
@@ -17,7 +17,7 @@ The skill is split into focused agents that can be run independently:
 | `/arc-ui` | Theme system, components, screen content, mobile UX |
 | `/arc-feature` | Add a complete new domain (types + API + hooks + screens) |
 | `/arc-audit` | Check for UX, performance, and architecture violations |
-| `/react-native-arc` | Full scaffolding (all-in-one) |
+| `/arc-skill` | Full scaffolding (all-in-one) |
 
 **Typical workflow:**
 ```
@@ -35,7 +35,7 @@ The skill is split into focused agents that can be run independently:
 | Cursor | `.cursorrules` or `.cursor/rules` |
 | Other | Add contents of `AGENTS.md` to your agent's instruction file |
 
-The key line to add is: **"Read the skill files in `skills/react-native-arc/` before generating code."**
+The key line to add is: **"Read the skill files in `skills/arc-skill/` before generating code."**
 
 ## Architecture Stack
 
@@ -55,7 +55,7 @@ The key line to add is: **"Read the skill files in `skills/react-native-arc/` be
 ## Project Structure
 
 ```
-skills/react-native-arc/
+skills/arc-skill/
 ├── project-structure.md          # Folder tree, naming, barrel exports
 ├── navigation.md                 # Navigation setup, typed hooks, deep linking
 ├── theme.md                      # Theme system, color schemes, OLED dark mode
@@ -110,7 +110,7 @@ component-name/
 Run automated UX checks on any React Native project:
 
 ```bash
-python skills/react-native-arc/mobile-design/scripts/mobile_audit.py /path/to/project
+python skills/arc-skill/mobile-design/scripts/mobile_audit.py /path/to/project
 ```
 
 ## Expo Skills (Recommended)

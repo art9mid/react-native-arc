@@ -13,7 +13,7 @@ The workflow is split into focused agents that can be run independently:
 | `/arc-ui` | Theme system, components, screen content, mobile UX | After scaffold — building the visual layer |
 | `/arc-feature` | Add a complete new domain (types + API + hooks + screens) | Adding a new entity like products or orders |
 | `/arc-audit` | Check for UX, performance, and architecture violations | Reviewing existing code quality |
-| `/react-native-arc` | Full scaffolding (all-in-one) | When you want everything in a single pass |
+| `/arc-skill` | Full scaffolding (all-in-one) | When you want everything in a single pass |
 
 **Typical workflow:**
 ```
@@ -22,7 +22,7 @@ The workflow is split into focused agents that can be run independently:
 
 ## Architecture Reference
 
-All documentation lives in `skills/react-native-arc/`. Read before writing code:
+All documentation lives in `skills/arc-skill/`. Read before writing code:
 
 | File | What It Covers |
 |------|---------------|
@@ -41,7 +41,7 @@ All documentation lives in `skills/react-native-arc/`. Read before writing code:
 
 ## Mobile Design System
 
-Read `skills/react-native-arc/mobile-design/` for platform-specific guidelines:
+Read `skills/arc-skill/mobile-design/` for platform-specific guidelines:
 
 | File | What It Covers |
 |------|---------------|
@@ -60,7 +60,7 @@ Read `skills/react-native-arc/mobile-design/` for platform-specific guidelines:
 
 ## Code Templates
 
-Use `skills/react-native-arc/templates/` when generating new code:
+Use `skills/arc-skill/templates/` when generating new code:
 
 | Template | Generates |
 |----------|-----------|

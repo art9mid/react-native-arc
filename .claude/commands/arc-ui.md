@@ -20,7 +20,7 @@ If the user provides a Figma link, use the Figma MCP tools (`get_design_context`
 
 ## Step 2: Read Reference Files
 
-Read these from `skills/react-native-arc/`:
+Read these from `skills/arc-skill/`:
 1. `theme.md` — color schemes, useStyles, useAppTheme, OLED dark mode
 2. `components.md` — component file structure, touch targets, haptics, expo-image
 3. `performance.md` — memoization, FlatList, animations

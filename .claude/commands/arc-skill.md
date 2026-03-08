@@ -1,6 +1,6 @@
 # React Native Arc — Project Scaffolding Skill
 
-You are scaffolding a new React Native (Expo) project using the **react-native-arc** architecture.
+You are scaffolding a new React Native (Expo) project using the **arc-skill** architecture.
 
 ## Pre-Flight
 
@@ -31,7 +31,7 @@ You are scaffolding a new React Native (Expo) project using the **react-native-a
    ```
 
 4. **Mobile Design Checkpoint (mandatory):**
-   Before writing any code, read `skills/react-native-arc/mobile-design/GUIDE.md` and complete:
+   Before writing any code, read `skills/arc-skill/mobile-design/GUIDE.md` and complete:
    ```
    Platform:   [iOS / Android / Both]
    Framework:  React Native (Expo)
@@ -49,7 +49,7 @@ You are scaffolding a new React Native (Expo) project using the **react-native-a
 
 ## Architecture Reference Files
 
-Read the following skill files from `skills/react-native-arc/` to understand the full architecture before generating code:
+Read the following skill files from `skills/arc-skill/` to understand the full architecture before generating code:
 
 **Core Architecture:**
 1. **`project-structure.md`** — Complete folder structure
@@ -79,7 +79,7 @@ Read the following skill files from `skills/react-native-arc/` to understand the
 
 ## Template Files
 
-Read templates from `skills/react-native-arc/templates/` for code generation patterns:
+Read templates from `skills/arc-skill/templates/` for code generation patterns:
 - **`component.md`** — Component file templates
 - **`screen.md`** — Screen file templates
 - **`hook.md`** — Custom hook templates

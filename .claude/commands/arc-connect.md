@@ -18,7 +18,7 @@ Ask the user for:
 
 ## Step 2: Read Reference Files
 
-Read these from `skills/react-native-arc/`:
+Read these from `skills/arc-skill/`:
 1. `api-services.md` — Axios setup, interceptors, API modules
 2. `storage.md` — MMKV wrappers, typed access
 3. `state-management.md` — React Query client, query/mutation hooks

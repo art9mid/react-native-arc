@@ -2,7 +2,7 @@ You are working with a React Native (Expo) architecture reference project. Read 
 
 # Architecture Reference
 
-All architecture documentation is in `skills/react-native-arc/`. Read these files BEFORE writing code:
+All architecture documentation is in `skills/arc-skill/`. Read these files BEFORE writing code:
 
 - `project-structure.md` — Folder tree, naming conventions, barrel exports
 - `navigation.md` — React Navigation 7.x (native-stack + bottom-tabs)
@@ -18,7 +18,7 @@ All architecture documentation is in `skills/react-native-arc/`. Read these file
 
 # Mobile Design System
 
-Read `skills/react-native-arc/mobile-design/` for:
+Read `skills/arc-skill/mobile-design/` for:
 - Touch psychology (44pt min targets, thumb zones, haptics)
 - Platform conventions (iOS HIG vs Material Design 3)
 - Performance optimization (FlatList, animations, memory)
@@ -29,7 +29,7 @@ Read `skills/react-native-arc/mobile-design/` for:
 
 # Code Templates
 
-Use templates from `skills/react-native-arc/templates/`:
+Use templates from `skills/arc-skill/templates/`:
 - `component.md` — Component scaffolding
 - `screen.md` — Screen scaffolding
 - `hook.md` — Custom hook patterns

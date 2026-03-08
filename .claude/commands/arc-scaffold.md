@@ -18,7 +18,7 @@ Ask the user for:
 
 ## Step 2: Read Reference Files
 
-Read these from `skills/react-native-arc/`:
+Read these from `skills/arc-skill/`:
 1. `project-structure.md` — folder tree, naming, barrel exports
 2. `navigation.md` — React Navigation setup, typed hooks
 3. `typescript.md` — TSConfig, path aliases, babel config

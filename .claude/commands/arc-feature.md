@@ -5,7 +5,7 @@ description: "Add a complete new feature domain to an existing React Native Expo
 
 # Arc Feature — Add a New Domain
 
-You are adding a complete new feature/domain to an existing React Native (Expo) project that follows the react-native-arc architecture. This generates everything needed for one domain in a single pass.
+You are adding a complete new feature/domain to an existing React Native (Expo) project that follows the arc-skill architecture. This generates everything needed for one domain in a single pass.
 
 ## Step 1: Gather Requirements
 
@@ -19,7 +19,7 @@ Ask the user for:
 
 ## Step 2: Read Reference Files
 
-Read templates from `skills/react-native-arc/templates/`:
+Read templates from `skills/arc-skill/templates/`:
 1. `api-service.md` — API module + React Query hooks + query keys
 2. `component.md` — component structure
 3. `screen.md` — screen with data fetching

@@ -30,6 +30,38 @@ component-name/
 7. **All sizing uses `react-native-size-matters`** — no hardcoded pixel values
 8. **useStyles hook for all styles** — provides theme + insets
 
+## Styling Rules
+
+### borderCurve with borderRadius
+
+Always use `borderCurve: 'continuous'` with `borderRadius` for smoother iOS-style corners:
+
+```typescript
+// ❌ Incorrect
+{ borderRadius: 12 }
+
+// ✅ Correct – smoother iOS-style corners
+{ borderRadius: 12, borderCurve: 'continuous' }
+```
+
+### gap instead of margin for spacing
+
+Use `gap` on the parent instead of margin on children for spacing between elements:
+
+```tsx
+// ❌ Incorrect – margin on children
+<View>
+  <Text style={{ marginBottom: 8 }}>Title</Text>
+  <Text style={{ marginBottom: 8 }}>Subtitle</Text>
+</View>
+
+// ✅ Correct – gap on parent
+<View style={{ gap: 8 }}>
+  <Text>Title</Text>
+  <Text>Subtitle</Text>
+</View>
+```
+
 ## Example: Button Component
 
 ### Types
@@ -103,6 +135,7 @@ import { BUTTON_HEIGHTS, BUTTON_PADDING_HORIZONTAL } from './button.constants';
 export const createStyles = (theme: AppTheme, _insets: EdgeInsets) => ({
   container: {
     borderRadius: sizes.mainBorderRadius,
+    borderCurve: 'continuous' as const,
     alignItems: 'center' as const,
     justifyContent: 'center' as const,
     flexDirection: 'row' as const,

@@ -2,7 +2,7 @@
 
 Read `AGENTS.md` for full architecture instructions, reference file locations, and critical rules.
 
-Read skill files from `skills/react-native-arc/` before generating any code.
+Read skill files from `skills/arc-skill/` before generating any code.
 
 ## Commands
 
@@ -11,4 +11,4 @@ Read skill files from `skills/react-native-arc/` before generating any code.
 - `/arc-ui` — theme, components, screens, mobile UX design
 - `/arc-feature` — add a new domain (types + API + hooks + screens)
 - `/arc-audit` — check for UX, performance, architecture violations
-- `/react-native-arc` — full scaffolding (all-in-one)
+- `/arc-skill` — full scaffolding (all-in-one)

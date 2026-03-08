@@ -1,11 +1,11 @@
 ---
 name: arc-audit
-description: "Audit a React Native Expo project for mobile UX issues, performance problems, and architecture violations. Use to check code quality against react-native-arc best practices."
+description: "Audit a React Native Expo project for mobile UX issues, performance problems, and architecture violations. Use to check code quality against arc-skill best practices."
 ---
 
 # Arc Audit — Mobile UX & Architecture Check
 
-You are auditing an existing React Native (Expo) project against the react-native-arc architecture standards and mobile design best practices.
+You are auditing an existing React Native (Expo) project against the arc-skill architecture standards and mobile design best practices.
 
 ## Step 1: Ask Scope
 
@@ -15,7 +15,7 @@ Ask the user:
 
 ## Step 2: Read Reference Files
 
-Read from `skills/react-native-arc/`:
+Read from `skills/arc-skill/`:
 1. `mobile-design/GUIDE.md` — anti-patterns checklist
 2. `mobile-design/touch-psychology.md` — touch target rules
 3. `mobile-design/mobile-performance.md` — performance checklist
@@ -78,7 +78,7 @@ Search the codebase for violations in each category:
 
 If the project has the audit script:
 ```bash
-python skills/react-native-arc/mobile-design/scripts/mobile_audit.py ./src
+python skills/arc-skill/mobile-design/scripts/mobile_audit.py ./src
 ```
 
 ## Step 5: Report
